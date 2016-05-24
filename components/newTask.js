@@ -9,7 +9,6 @@ class NewTask extends Component {
 
   handleClick(e){
     e.preventDefault()
-    console.log()
     this.props.addTask(this.state.field)
   }
 
@@ -20,7 +19,7 @@ class NewTask extends Component {
         <h2>Enter a new task</h2>
         <form>
           <input type='text' name='task' onChange={this.handleField.bind(this)} ></input>
-          <button onClick={this.handleClick.bind(this)} ></button>
+          <button onClick={this.handleClick.bind(this)} >Add Task</button>
         </form>
       </div>
     )
