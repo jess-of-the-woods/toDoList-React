@@ -1,4 +1,3 @@
-
 # todoListReact
 
 Squishy
@@ -9,7 +8,7 @@ Squishy
 
 ```
 git clone https://github.com/jess-of-the-woods/todoListReact
-cd 
+cd
 npm install
 ```
 
